@@ -2052,3 +2052,14 @@ section {
   font-weight: 700;
   color: #012970;
 }
+
+#topics{
+  position: relative;
+  left: 100px;
+  margin-top: 10px;
+
+}
+
+.trow{
+  margin: 10px;
+}
