@@ -10,3 +10,10 @@ ProLearn is a learning platform created as a part of Cuvette Codoctober Hackatho
 - Learning Track
 - Rating
 - Authentication
+
+
+## Technology Used
+- Frontend - HTML, CSS, Bootstrap
+- DataBase - Azure MySQL database
+- Backend - PHP
+- Cloud - Azure  
