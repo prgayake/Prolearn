@@ -1468,7 +1468,7 @@ section {
 # Blog
 --------------------------------------------------------------*/
 .blog {
-  padding: 40px 0 20px 0;
+  padding: 120px 0 20px 0;
 }
 .blog .entry {
   padding: 30px;
@@ -1621,6 +1621,12 @@ section {
   padding: 20px;
   margin-bottom: 30px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blog .blog-author:hover {
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
 }
 .blog .blog-author img {
   width: 120px;
@@ -2032,5 +2038,17 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
+  color: #012970;
+}
+
+
+/*--------------------------------------------------------------
+# New CSS
+--------------------------------------------------------------*/
+
+.topic {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
   color: #012970;
 }
