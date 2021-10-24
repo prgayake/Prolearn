@@ -2075,3 +2075,19 @@ section {
   color: #fff;
   background: #5969f3;
 }
+
+
+#flaxc{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.myprofile {
+    width: 120 px;
+
+}
+#mypro{
+  width: 150px;
+  margin: 10px;
+}
