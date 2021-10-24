@@ -50,21 +50,21 @@
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-    <a href="../index.html" class="logo d-flex align-items-center">
+    <a href="index.php" class="logo d-flex align-items-center">
         <img src="../assets/img/logo.png" alt="">
         <span>Prolearn</span>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="">My Learnings</a></li>
           <li><a class="nav-link scrollto" href="../explore.html">Explore</a></li>
           <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
           <li><a class="nav-link scrollto" href="../quiz.html">Quiz</a></li>
 
-        <li class="dropdown"><a href="#"><span><?php
+        <li class="dropdown active"><a href="#"><span><?php
             $mail =$_SESSION['email'];
             $result =mysqli_query($conn,"SELECT * from userdetails where email='$mail'");
             $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
@@ -185,9 +185,9 @@
 
   </main><!-- End #main -->
 
+
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
-
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
@@ -196,7 +196,6 @@
               <img src="assets/img/logo.png" alt="">
               <span>ProLearn</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -220,7 +219,7 @@
             <h4>Contact Us</h4>
             <p>
               ProLeaern Academy <br>
-              Pune, 411026<br>
+              Pune,  411026<br>
               Maharashtra <br><br>
               <strong>Phone:</strong> +1 775588 78 11<br>
               <strong>Email:</strong> prolearn@gmail.com<br>
@@ -231,9 +230,7 @@
         </div>
       </div>
     </div>
-
   </footer>
-  <!--End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

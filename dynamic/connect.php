@@ -13,12 +13,4 @@ die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 
 
-// //Run the Select query
-// printf("\n Reading data from table: \n");
-// $res = mysqli_query($conn, 'SELECT * FROM userdetails');
-// while ($row = mysqli_fetch_assoc($res)) {
-//     echo $row["name"];
-
-// }
-
 ?>

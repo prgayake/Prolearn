@@ -50,7 +50,7 @@
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="../index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <img src="../assets/img/logo.png" alt="">
         <span>Prolearn</span>
       </a>
@@ -104,7 +104,7 @@
             </div>
           </div>
           <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/learning.svg" class="img-fluid" alt="">
+            <img src="../assets/img/learning.svg" class="img-fluid" alt="">
           </div>
         </div>
       </div>

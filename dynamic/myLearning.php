@@ -202,18 +202,17 @@
 
   </main><!-- End #main -->
 
+
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
-
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
-              <img src="../assets/img/logo.png" alt="">
+              <img src="assets/img/logo.png" alt="">
               <span>ProLearn</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -237,7 +236,7 @@
             <h4>Contact Us</h4>
             <p>
               ProLeaern Academy <br>
-              Pune, 411026<br>
+              Pune,  411026<br>
               Maharashtra <br><br>
               <strong>Phone:</strong> +1 775588 78 11<br>
               <strong>Email:</strong> prolearn@gmail.com<br>
@@ -248,9 +247,7 @@
         </div>
       </div>
     </div>
-
   </footer>
-  <!--End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
