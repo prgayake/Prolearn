@@ -90,7 +90,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
 
-    <div class="container">
+    <div class="container" style="margin-top:100px;">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
 
@@ -116,20 +116,22 @@
               </div>
 <br>
               <div class="row">
-                <h5>Mobile Number</h5>
+
                 <div class="col ">
-                  <input name="mobile" type="number" class="form-control" placeholder="User Mobile No">
+                  <h5>Mobile No</h5>
+                  <input name="mobile" type="number" class="form-control" placeholder="Mobile No">
                 </div>
 
+
+                    <div class="col ">
+                      <h5>Age</h5>
+                      <input name="age" type="number" class="form-control" placeholder="Age">
+                    </div>
+
               </div>
-<br>      
-            <div class="row">
-            <h5>Age</h5>
-                <div class="col ">
-                  <input name="age" type="number" class="form-control" placeholder="Age">
-                </div>
-            </div>
-            <br>
+<br>
+
+
 
               <div class="row">
                 <h5>Password</h5>
@@ -148,7 +150,7 @@
                   <button type="submit" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center" type="submit" name="Register">
                     <span>SignUp</span>
                     <i class="bi bi-arrow-right"></i></button>
-                  
+
 
                   <div class="inputbox">
                     <p class="p1">Already have an account?</p>
@@ -251,7 +253,7 @@
 
 </html>
 <?php
-    
+
   include('./connect.php');
 
  if(isset($_POST['Register']))
@@ -268,14 +270,14 @@ $age =$_POST['age'];
   // $result1= mysqli_query($conn,$sql1);
   // while($row = mysqli_fetch_assoc($result1)){
   //   if($row['email']!=$email){
-      if($_POST['password'] == $_POST['cpassword'])      
+      if($_POST['password'] == $_POST['cpassword'])
         {
-          
+
           $sql =" INSERT INTO userdetails(name,email,mobile,password,age) VALUES  ('$name','$email','$mobile','$password','$age')";
 
-            
-        echo '<script type="text/javascript">alert("Registered !")</script>';  
-        
+
+        echo '<script type="text/javascript">alert("Registered !")</script>';
+
             $result= mysqli_query($conn,$sql);
              echo '<script type="text/javascript">
                location.replace("login.php");
@@ -283,19 +285,17 @@ $age =$_POST['age'];
         }
         else
         {
-          echo '<script type="text/javascript">alert("Incorrect Password !")</script>';  
+          echo '<script type="text/javascript">alert("Incorrect Password !")</script>';
         }
-        
+
 
     // }else{
 
-    //     echo '<script type="text/javascript">alert("Already Registered user with this Email ,try another !")</script>';  
+    //     echo '<script type="text/javascript">alert("Already Registered user with this Email ,try another !")</script>';
     // }
 
   // }
 
-      
+
 }
 ?>
-
-
