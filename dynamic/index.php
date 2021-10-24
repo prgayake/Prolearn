@@ -3,7 +3,7 @@
   if (isset($_SESSION['email'])) {
   }else{
      echo '<script type="text/javascript">
-               location.replace("login.html");
+               location.replace("login.php");
                 </script>';
   }
 
