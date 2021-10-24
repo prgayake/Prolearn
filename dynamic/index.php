@@ -119,7 +119,7 @@
         <div class="container" data-aos="fade-up">
 
           <header class="section-header">
-            
+
             <p>Features</p>
           </header>
 
@@ -155,7 +155,7 @@
 
       </section><!-- End Values Section -->
 
-  <!--    
+  <!--
       <section id="counts" class="counts">
         <div class="container" data-aos="fade-up">
 
@@ -295,12 +295,12 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                      How to use Prolearn Platform ?
+                      What is Prolearn ?
                     </button>
                   </h2>
                   <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                     <div class="accordion-body">
-
+                        Prolearn is a learning platform which provides various courses on different technical and Non-technical topics with proper resources and Quizzes.
                     </div>
                   </div>
                 </div>
@@ -308,16 +308,17 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                       where I can find best resources for ?
+                       Where can find best resources for ?
                     </button>
                   </h2>
                   <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                     <div class="accordion-body">
+                      Best resouces are in the resouces tab with different technical and non technical resouces also you cann find resources in explore section.
                     </div>
                   </div>
                 </div>
 
-           
+
 
               </div>
             </div>
@@ -330,11 +331,12 @@
                   <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                     Can I able to give quiz multiple times ?
+                     What types of Quizzes are available?
                     </button>
                   </h2>
                   <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                     <div class="accordion-body">
+                      Quizzes on multiple topics are present with different types of questions
                     </div>
                   </div>
                 </div>
@@ -342,12 +344,12 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
-                      Can I Able to share Content ?
+                      Can I share the profile?
                     </button>
                   </h2>
                   <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                     <div class="accordion-body">
-                      
+                      Yes you can share your profile and your progress with others.
                     </div>
                   </div>
                 </div>
@@ -369,8 +371,8 @@
         <div class="container" data-aos="fade-up">
 
           <header class="section-header">
-            <h2>Testimonials</h2>
-            <p>What they are saying about us</p>
+            <h2></h2>
+            <p>Reviews And Ratings</p>
           </header>
 
           <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
@@ -382,12 +384,12 @@
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    Best platform to access different resouces and explore different tech stack. Learned new skills which helped in futher growth. Highly recommend ProLearn.
                   </p>
                   <div class="profile mt-auto">
                     <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                    <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4>
+                    <h3>Atharv Patil</h3>
+                    <h4>Student At MITAOE Pune</h4>
                   </div>
                 </div>
               </div><!-- End testimonial item -->
@@ -398,12 +400,12 @@
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    Followed the C++ Path for learning it has best resouces with quiz. Learned C++ perfectly.
                   </p>
                   <div class="profile mt-auto">
                     <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                     <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
+                    <h4>Student At VIT Pune</h4>
                   </div>
                 </div>
               </div><!-- End testimonial item -->
@@ -411,15 +413,15 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    Explored various programming language and Quizzes of these languages Highly recommend ProLearn for learning.
                   </p>
                   <div class="profile mt-auto">
                     <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
+                    <h3>Jena Jadhav</h3>
+                    <h4>Student At MITAOE Pune</h4>
                   </div>
                 </div>
               </div><!-- End testimonial item -->
@@ -427,15 +429,15 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    Learned C++ perfectly.Explored various programming language and Quizzes of these languages Highly recommend ProLearn for learning.
                   </p>
                   <div class="profile mt-auto">
                     <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                    <h3>Matt Brandon</h3>
-                    <h4>Freelancer</h4>
+                    <h3>Prasad Hule</h3>
+                    <h4>Student At COEP Pune</h4>
                   </div>
                 </div>
               </div><!-- End testimonial item -->
@@ -443,15 +445,15 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    Best platform to access different resouces and explore different tech stack.Followed the C++ Path for learning it has best resouces with quiz. Learned C++ perfectly.
                   </p>
                   <div class="profile mt-auto">
                     <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                    <h3>John Larson</h3>
-                    <h4>Entrepreneur</h4>
+                    <h3>Akash Pawar</h3>
+                    <h4>Student At PCCOE Pune</h4>
                   </div>
                 </div>
               </div><!-- End testimonial item -->
@@ -463,7 +465,6 @@
         </div>
 
       </section><!-- End Testimonials Section -->
-
 
 
       <!-- ======= Clients Section ======= -->
@@ -561,4 +562,3 @@
 </body>
 
 </html>
-
