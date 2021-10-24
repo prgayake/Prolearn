@@ -53,12 +53,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto " href="../index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="../lp.html">Learning Path</a></li>
-          <li><a class="nav-link scrollto" href="#services">My Learnings</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Explore</a></li>
-          <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
-          <li><a class="nav-link scrollto" href="quiz.html">Quiz</a></li>
+          <li><a class="nav-link scrollto" href="../Learning.html">My Learnings</a></li>
+          <li><a class="nav-link scrollto" href="../explore.html">Explore</a></li>
+          <li><a class="nav-link scrollto" href="progress.php">My Progress</a></li>
+          <li><a class="nav-link scrollto" href="../quiz.html">Quiz</a></li>
 
 
           <li><a class="getstarted scrollto" href="#about">Login/Signup</a></li>
