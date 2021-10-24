@@ -64,7 +64,7 @@
           <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
           <li><a class="nav-link scrollto" href="#team">Quiz</a></li>
 
-          <li class="dropdown"><a href="#"><span>  <?php
+        <li class="dropdown"><a href="#"><span><?php
             $mail =$_SESSION['email'];
             $result =mysqli_query($conn,"SELECT * from userdetails where email='$mail'");
             $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
@@ -73,7 +73,9 @@
             <ul>
               <li><a href="#">Profile</a></li>
               <li><a href="./logout.php">Logout</a></li>
-          
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="./dynamic/login.php">Login/Signup</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
