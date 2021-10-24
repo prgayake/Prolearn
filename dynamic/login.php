@@ -79,19 +79,19 @@
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="../index.html" class="logo d-flex align-items-center">
         <img src="../assets/img/logo.png" alt="">
         <span>Prolearn</span>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="../index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="../lp.html">Learning Path</a></li>
-          <li><a class="nav-link scrollto" href="#services">My Learnings</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Explore</a></li>
-          <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
-          <li><a class="nav-link scrollto" href="quiz.html">Quiz</a></li>
+          <li><a class="nav-link scrollto" href="../Learning.html">My Learnings</a></li>
+          <li><a class="nav-link scrollto" href="../explore.html">Explore</a></li>
+          <li><a class="nav-link scrollto" href="progress.php">My Progress</a></li>
+          <li><a class="nav-link scrollto" href="../quiz.html">Quiz</a></li>
 
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
