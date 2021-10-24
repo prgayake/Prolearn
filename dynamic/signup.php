@@ -11,22 +11,22 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- library CSS Files -->
-  <link href="assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/library/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/library/aos/aos.css" rel="stylesheet">
-  <link href="assets/library/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/library/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/library/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/library/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/library/aos/aos.css" rel="stylesheet">
+  <link href="../assets/library/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/library/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/library/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
 
 
 </head>
@@ -38,7 +38,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="">
+        <img src="../assets/img/logo.png" alt="">
         <span>Prolearn</span>
       </a>
 
@@ -76,6 +76,8 @@
     </div>
   </header><!-- End Header -->
 
+
+
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
 
@@ -84,53 +86,85 @@
         <div class="col-lg-6 d-flex flex-column justify-content-center">
 
           <div class="col-lg-6">
-            <div class="contentbox">
+            <h1>SignUp</h1>
 
-              <div class="formbox" data-aos="fade-right">
-                <h1>Login</h1>
-                <br>
-                <form class="" action="index.html" method="post">
+            <form method="post" action="signup.php" >
+              <div class="row">
+                <h5>Name</h5>
+                <div class="col ">
+                  <input name="name" type="text" class="form-control" placeholder="User Name">
+                </div>
 
-                  <div class="inputbox">
-                    <h5>Username</h5>
-                    <input type="text" name="name" class="form-control" placeholder="" required>
-                  </div>
-                  <br>
-
-                  <div class="inputbox">
-                    <h5>Password</h5>
-                    <input type="password" name="name" class="form-control" placeholder="" required>
-                  </div>
-
-                  <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                    <span>Login</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                  <br>
-                  <br>
-
-                  <div class="inputbox">
-                    <p class="p1">Don't have an account?</p>
-                    <a href="signup.html">
-                      <h6>Sign up</h6>
-                    </a>
-                  </div>
-
-
-                </form>
               </div>
+
+<br>
+              <div class="row">
+                <h5>Email ID</h5>
+                <div class="col ">
+                  <input name="email" type="email" class="form-control" placeholder="User Email ID">
+                </div>
+
+              </div>
+<br>
+              <div class="row">
+                <h5>Mobile Number</h5>
+                <div class="col ">
+                  <input name="mobile" type="number" class="form-control" placeholder="User Mobile No">
+                </div>
+
+              </div>
+<br>      
+            <div class="row">
+            <h5>Age</h5>
+                <div class="col ">
+                  <input name="age" type="number" class="form-control" placeholder="Age">
+                </div>
             </div>
+            <br>
+
+              <div class="row">
+                <h5>Password</h5>
+                <div class="col ">
+                  <input name="password" type="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="col ">
+                  <input name="cpassword" type="password" class="form-control" placeholder="Confirm Password">
+                </div>
+
+              </div>
+
+
+              <div class="row">
+                <div class="col ">
+                  <button type="submit" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center" type="submit" name="Register">
+                    <span>SignUp</span>
+                    <i class="bi bi-arrow-right"></i></button>
+                  
+
+                </div>
+
+
+              </div>
+
+
+            </form>
+
+
           </div>
 
 
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/learning.svg" class="img-fluid" alt="">
+          <img src="../assets/img/learning.svg" class="img-fluid" alt="">
         </div>
       </div>
     </div>
 
   </section><!-- End Hero -->
+
+
+
+
 
 
 
@@ -142,10 +176,10 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/logo.png" alt="">
+              <img src="../assets/img/logo.png" alt="">
               <span>ProLearn</span>
             </a>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -169,7 +203,7 @@
             <h4>Contact Us</h4>
             <p>
               ProLeaern Academy <br>
-              Pune,  411026<br>
+              Pune, 411026<br>
               Maharashtra <br><br>
               <strong>Phone:</strong> +1 775588 78 11<br>
               <strong>Email:</strong> prolearn@gmail.com<br>
@@ -180,23 +214,70 @@
         </div>
       </div>
     </div>
+
   </footer>
   <!--End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- library JS Files -->
-  <script src="assets/library/bootstrap/js/bootstrap.bundle.js"></script>
-  <script src="assets/library/aos/aos.js"></script>
-  <script src="assets/library/php-email-form/validate.js"></script>
-  <script src="assets/library/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/library/purecounter/purecounter.js"></script>
-  <script src="assets/library/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/library/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/library/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="../assets/library/aos/aos.js"></script>
+  <script src="../assets/library/php-email-form/validate.js"></script>
+  <script src="../assets/library/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/library/purecounter/purecounter.js"></script>
+  <script src="../assets/library/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/library/glightbox/js/glightbox.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 
 </body>
 
 </html>
+<?php
+    
+  include('./connect.php');
+
+ 
+
+if(isset($_POST['Register']))
+{
+$name = $_POST['name'];
+$mobile= $_POST['mobile'];
+$email= $_POST['email'];
+$password= $_POST['password'];
+$cpassword =$_POST['cpassword'];
+$age =$_POST['age'];
+
+  $sql1 = "SELECT email FROM userdetails WHERE email='$email'";
+  $result1= mysqli_query($conn,$sql1);
+  while($row = mysqli_fetch_assoc($result1)){
+    if($row['email']!=$email){
+      if($_POST['password'] == $_POST['cpassword'])      
+        {
+          
+          $sql =" INSERT INTO userdetails(name,email,mobile,password,age) VALUES  ('$name','$email','$mobile','$password','$age')";
+
+          $result= mysqli_query($conn,$sql);
+        }
+        else
+        {
+          echo '<script type="text/javascript">alert("Incorrect Password !")</script>';  
+        }
+        
+
+        echo '<script type="text/javascript">alert("Registered !")</script>';  
+        
+    }else{
+
+        echo '<script type="text/javascript">alert("Already Registered user with this Email ,try another !")</script>';  
+    }
+
+  }
+
+      
+}
+?>
+
+
