@@ -1,3 +1,45 @@
+<?php
+  include('connect.php');
+    session_start();
+      if (isset($_SESSION['email'])) {
+         echo '<script type="text/javascript">
+               location.replace("index.php");
+                </script>';
+  }else{
+    if(isset($_POST['Login']))
+    {
+      $email=$_POST['email'];
+      $password=$_POST['password'];
+      $result =mysqli_query($conn,"SELECT * from userdetails where email='$email' AND password ='$password'");
+       
+     if($result)
+        {
+          if(mysqli_num_rows($result)>0)
+          {
+            $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+            $_SESSION['email'] = $email;
+             echo '<script type="text/javascript">
+               location.replace("index.php");
+                </script>';
+            
+          }
+        
+          else
+          {
+            echo '<script type="text/javascript">alert("No such User exists. Invalid Credentials")</script>';
+          }
+        }
+        else
+        {
+          echo '<script type="text/javascript">alert("Invalid Password Or Username")</script>';
+        }
+      
+     
+    }
+
+  }
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,7 +91,7 @@
           <li><a class="nav-link scrollto" href="#services">My Learnings</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Explore</a></li>
           <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
-          <li><a class="nav-link scrollto" href="#team">Quiz</a></li>
+          <li><a class="nav-link scrollto" href="quiz.html">Quiz</a></li>
 
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -201,40 +243,4 @@
 </html>
 
 <?php
-include('connect.php');
-    
-    if(isset($_POST['Login']))
-    {
-      $email=$_POST['email'];
-      $password=$_POST['password'];
-
-      session_start();
-     $result =mysqli_query($conn,"SELECT * from userdetails where email='$email' AND password ='$password'");
-       
-     if($result)
-        {
-          if(mysqli_num_rows($result)>0)
-          {
-            $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-            $_SESSION['email'] = $email;
-            $_SESSION['loggedin'] = true;
-            echo '<script type="text/javascript">
-               location.replace("index.php");
-                </script>';
-
-            
-          }
-        
-          else
-          {
-            echo '<script type="text/javascript">alert("No such User exists. Invalid Credentials")</script>';
-          }
-        }
-        else
-        {
-          echo '<script type="text/javascript">alert("Invalid Password Or Username")</script>';
-        }
-      
-     
-    }
 ?>
