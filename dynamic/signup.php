@@ -1,3 +1,12 @@
+<?php
+  include('connect.php');
+  session_start();
+  if (isset($_SESSION['email'])) {
+     echo '<script type="text/javascript">
+               location.replace("index.php");
+                </script>';
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,7 +58,7 @@
           <li><a class="nav-link scrollto" href="#services">My Learnings</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Explore</a></li>
           <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
-          <li><a class="nav-link scrollto" href="#team">Quiz</a></li>
+          <li><a class="nav-link scrollto" href="quiz.html">Quiz</a></li>
 
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -141,6 +150,12 @@
                     <i class="bi bi-arrow-right"></i></button>
                   
 
+                  <div class="inputbox">
+                    <p class="p1">Already have an account?</p>
+                    <a href="login.php">
+                      <h5>Login </h5>
+                    </a>
+                  </div>
                 </div>
 
 
