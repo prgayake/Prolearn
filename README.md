@@ -8,11 +8,13 @@ Prolearn is a online learning platform to learn and practice differnet skills li
 ## How to Run 
 *<p>(If You want to Run it Locally)</p>*
 - Clone Repository 
+
 ```
 git clone https://github.com/mayur-23/Prolearn.git
 ```
 
-- After Cloning Repository Just start Xampp server and type in your browser.
+- After Cloning Repository Just start Xampp server and type in your browser
+
 ```
 http://localhost/Prolearn/
 ```
@@ -23,12 +25,16 @@ http://localhost/Prolearn/
 
 ## Live WebApp Screenshots
 - Home 
+
 ![snap1](https://github.com/mayur-23/Prolearn/blob/main/Screenshot%20from%202021-10-25%2001-26-44.png)
 - Learning Path
+
 ![snap2](https://github.com/mayur-23/Prolearn/blob/main/Screenshot%20from%202021-10-25%2001-33-19.png)
 - Quizzes
+
 ![snap3](https://github.com/mayur-23/Prolearn/blob/main/Screenshot%20from%202021-10-25%2001-36-45.png)
 - My Learnings
+
 ![snap4](https://github.com/mayur-23/Prolearn/blob/main/Screenshot%20from%202021-10-25%2001-40-24.png)
 
 ## Prolearn Features :
