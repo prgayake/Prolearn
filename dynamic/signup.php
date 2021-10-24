@@ -254,9 +254,7 @@
     
   include('./connect.php');
 
- 
-
-if(isset($_POST['Register']))
+ if(isset($_POST['Register']))
 {
 $name = $_POST['name'];
 $mobile= $_POST['mobile'];
@@ -265,16 +263,23 @@ $password= $_POST['password'];
 $cpassword =$_POST['cpassword'];
 $age =$_POST['age'];
 
-  $sql1 = "SELECT email FROM userdetails WHERE email='$email'";
-  $result1= mysqli_query($conn,$sql1);
-  while($row = mysqli_fetch_assoc($result1)){
-    if($row['email']!=$email){
+
+  // $sql1 = "SELECT email FROM userdetails WHERE email='$email'";
+  // $result1= mysqli_query($conn,$sql1);
+  // while($row = mysqli_fetch_assoc($result1)){
+  //   if($row['email']!=$email){
       if($_POST['password'] == $_POST['cpassword'])      
         {
           
           $sql =" INSERT INTO userdetails(name,email,mobile,password,age) VALUES  ('$name','$email','$mobile','$password','$age')";
 
-          $result= mysqli_query($conn,$sql);
+            
+        echo '<script type="text/javascript">alert("Registered !")</script>';  
+        
+            $result= mysqli_query($conn,$sql);
+             echo '<script type="text/javascript">
+               location.replace("login.php");
+                </script>';
         }
         else
         {
@@ -282,14 +287,12 @@ $age =$_POST['age'];
         }
         
 
-        echo '<script type="text/javascript">alert("Registered !")</script>';  
-        
-    }else{
+    // }else{
 
-        echo '<script type="text/javascript">alert("Already Registered user with this Email ,try another !")</script>';  
-    }
+    //     echo '<script type="text/javascript">alert("Already Registered user with this Email ,try another !")</script>';  
+    // }
 
-  }
+  // }
 
       
 }
