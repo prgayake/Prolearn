@@ -2063,3 +2063,15 @@ section {
 .trow{
   margin: 10px;
 }
+
+.qbutton,qbutton:focus {
+  background: #4154f1;
+  padding: 8px 20px;
+  margin: 15px;
+  border-radius: 4px;
+  color: #fff;
+}
+.qbutton:hover {
+  color: #fff;
+  background: #5969f3;
+}
