@@ -11,7 +11,7 @@
       $email=$_POST['email'];
       $password=$_POST['password'];
       $result =mysqli_query($conn,"SELECT * from userdetails where email='$email' AND password ='$password'");
-       
+
      if($result)
         {
           if(mysqli_num_rows($result)>0)
@@ -21,9 +21,9 @@
              echo '<script type="text/javascript">
                location.replace("index.php");
                 </script>';
-            
+
           }
-        
+
           else
           {
             echo '<script type="text/javascript">alert("No such User exists. Invalid Credentials")</script>';
@@ -33,12 +33,12 @@
         {
           echo '<script type="text/javascript">alert("Invalid Password Or Username")</script>';
         }
-      
-     
+
+
     }
 
   }
-    
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -87,7 +87,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="../lp.html">Learning Path</a></li>
           <li><a class="nav-link scrollto" href="#services">My Learnings</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Explore</a></li>
           <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
@@ -186,7 +186,6 @@
               <img src="../assets/img/logo.png" alt="">
               <span>ProLearn</span>
             </a>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>

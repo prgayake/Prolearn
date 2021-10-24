@@ -56,9 +56,9 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="">My Learnings</a></li>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="../lp.html">Learning Path</a></li>
+          <li><a class="nav-link scrollto active" href="">My Learnings</a></li>
           <li><a class="nav-link scrollto" href="../explore.html">Explore</a></li>
           <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
           <li><a class="nav-link scrollto" href="../quiz.html">Quiz</a></li>
@@ -196,7 +196,7 @@
       </section><!-- End Services Section -->
 
 
- 
+
 
     </section><!-- End Blog Single Section -->
 

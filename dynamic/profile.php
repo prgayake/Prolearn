@@ -58,7 +58,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="../lp.html">Learning Path</a></li>
           <li><a class="nav-link scrollto" href="">My Learnings</a></li>
           <li><a class="nav-link scrollto" href="../explore.html">Explore</a></li>
           <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
@@ -142,13 +142,13 @@
         include('connect.php');
 
       if (isset($_GET['id']))
-      {   
+      {
 
           $id = (int) $_GET['id'];
           $sql = 'SELECT * FROM userdetails WHERE id = ' . $id;
           $result = mysqli_query($conn,$sql);
           $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-            
+
 
           // Then the rest of the code to check the results goes here
       }
@@ -249,6 +249,3 @@
 </body>
 
 </html>
-
-
-

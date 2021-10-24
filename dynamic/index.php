@@ -58,7 +58,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="../lp.html">Learning Path</a></li>
           <li><a class="nav-link scrollto" href="myLearning.php">My Learnings</a></li>
           <li><a class="nav-link scrollto" href="../explore.html">Explore</a></li>
           <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
@@ -69,7 +69,7 @@
             $result =mysqli_query($conn,"SELECT * from userdetails where email='$mail'");
             $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
             echo $row['name'];
-            
+
             ?></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
                <li><a href="profile.php?id=<?php echo $row['id'];?>">Profile</a></li>
@@ -474,20 +474,20 @@
         <div class="container" data-aos="fade-up">
 
           <header class="section-header">
-            <h2>Our Clients</h2>
-            <p>Temporibus omnis officia</p>
+            <h2>Our Tracks</h2>
+            <p>All Avaliable Resources</p>
           </header>
 
           <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
-              <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-              <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-              <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-              <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-              <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-              <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-              <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-              <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="../assets/img/quiz/cplus.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="../assets/img/quiz/java.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="../assets/img/quiz/python.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="../assets/img/quiz/aws.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="../assets/img/quiz/azure.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="../assets/img/quiz/c.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="../assets/img/quiz/html.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="../assets/img/quiz/ad.png" class="img-fluid" alt=""></div>
             </div>
             <div class="swiper-pagination"></div>
           </div>
@@ -509,7 +509,6 @@
               <img src="../assets/img/logo.png" alt="">
               <span>ProLearn</span>
             </a>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
