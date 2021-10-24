@@ -1,4 +1,5 @@
 <?php
+  include('connect.php');
   session_start();
   if (isset($_SESSION['email'])) {
   }else{
@@ -6,6 +7,7 @@
                location.replace("login.php");
                 </script>';
   }
+
 
 ?>
 
@@ -62,32 +64,16 @@
           <li><a class="nav-link scrollto" href="#team">My Progress</a></li>
           <li><a class="nav-link scrollto" href="#team">Quiz</a></li>
 
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="getstarted scrollto" href="#about">
-            <?php
-            include('connect.php');
+          <li class="dropdown"><a href="#"><span>  <?php
             $mail =$_SESSION['email'];
             $result =mysqli_query($conn,"SELECT * from userdetails where email='$mail'");
             $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
             echo $row['name'];
-            ?>
-          </a></li>
+            ?></span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Profile</a></li>
+              <li><a href="./logout.php">Logout</a></li>
+          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -599,3 +585,4 @@
 </body>
 
 </html>
+
