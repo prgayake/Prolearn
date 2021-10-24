@@ -75,7 +75,7 @@
               <li><a href="./logout.php">Logout</a></li>
             </ul>
           </li>
-          <li><a class="getstarted scrollto" href="./dynamic/login.php">Login/Signup</a></li>
+<!--           <li><a class="getstarted scrollto" href="./dynamic/login.php">Login/Signup</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
